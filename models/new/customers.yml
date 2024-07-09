@@ -20,4 +20,4 @@ models:
         description: "Description of sign_up_date"
         data_type: unknown
     dependencies:
-      - name: raw_customers
+      - name: public-raw_customers

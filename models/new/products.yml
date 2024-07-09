@@ -17,4 +17,4 @@ models:
         description: "Description of price"
         data_type: unknown
     dependencies:
-      - name: raw_products
+      - name: public-raw_products
