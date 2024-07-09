@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: customers
+    description: "Description of the customers model"
+    columns:
+      - name: customer_id
+        description: "Description of customer_id"
+        data_type: unknown
+      - name: first_name
+        description: "Description of first_name"
+        data_type: unknown
+      - name: last_name
+        description: "Description of last_name"
+        data_type: unknown
+      - name: email
+        description: "Description of email"
+        data_type: unknown
+      - name: sign_up_date
+        description: "Description of sign_up_date"
+        data_type: unknown
+    dependencies:
+      - name: customers

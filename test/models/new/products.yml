@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: products
+    description: "Description of the products model"
+    columns:
+      - name: product_id
+        description: "Description of product_id"
+        data_type: unknown
+      - name: product_name
+        description: "Description of product_name"
+        data_type: unknown
+      - name: category
+        description: "Description of category"
+        data_type: unknown
+      - name: price
+        description: "Description of price"
+        data_type: unknown
+    dependencies:
+      - name: products

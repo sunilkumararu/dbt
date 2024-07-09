@@ -1,0 +1,168 @@
+{
+    "table_name": "customer_order_summary",
+    "columns": [
+        {
+            "column": "customer_id",
+            "lineage": [
+                {
+                    "name": "c.customer_id",
+                    "expression": "ilufzqee.public.customers AS c",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "customer_id",
+                    "model": "customers",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "customer_name",
+            "lineage": [
+                {
+                    "name": "c.first_name",
+                    "expression": "ilufzqee.public.customers AS c",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "first_name",
+                    "model": "customers",
+                    "downstream": []
+                },
+                {
+                    "name": "c.last_name",
+                    "expression": "ilufzqee.public.customers AS c",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "last_name",
+                    "model": "customers",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "email",
+            "lineage": [
+                {
+                    "name": "c.email",
+                    "expression": "ilufzqee.public.customers AS c",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "email",
+                    "model": "customers",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "sign_up_date",
+            "lineage": [
+                {
+                    "name": "c.sign_up_date",
+                    "expression": "ilufzqee.public.customers AS c",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "sign_up_date",
+                    "model": "customers",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "total_orders",
+            "lineage": [
+                {
+                    "name": "o.order_id",
+                    "expression": "ilufzqee.public.orders AS o",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "order_id",
+                    "model": "orders",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "total_quantity",
+            "lineage": [
+                {
+                    "name": "o.quantity",
+                    "expression": "ilufzqee.public.orders AS o",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "quantity",
+                    "model": "orders",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "total_spent",
+            "lineage": [
+                {
+                    "name": "o.total_amount",
+                    "expression": "ilufzqee.public.orders AS o",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "total_amount",
+                    "model": "orders",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "first_order_date",
+            "lineage": [
+                {
+                    "name": "o.order_date",
+                    "expression": "ilufzqee.public.orders AS o",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "order_date",
+                    "model": "orders",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "last_order_date",
+            "lineage": [
+                {
+                    "name": "o.order_date",
+                    "expression": "ilufzqee.public.orders AS o",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "order_date",
+                    "model": "orders",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "favorite_product",
+            "lineage": [
+                {
+                    "name": "p.product_name",
+                    "expression": "ilufzqee.public.products AS p",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "product_name",
+                    "model": "products",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "favorite_category",
+            "lineage": [
+                {
+                    "name": "p.category",
+                    "expression": "ilufzqee.public.products AS p",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "category",
+                    "model": "products",
+                    "downstream": []
+                }
+            ]
+        }
+    ]
+}

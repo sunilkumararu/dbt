@@ -1,0 +1,61 @@
+{
+    "table_name": "products",
+    "columns": [
+        {
+            "column": "product_id",
+            "lineage": [
+                {
+                    "name": "products.product_id",
+                    "expression": "ilufzqee.public.products AS products",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "product_id",
+                    "model": "products",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "product_name",
+            "lineage": [
+                {
+                    "name": "products.product_name",
+                    "expression": "ilufzqee.public.products AS products",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "product_name",
+                    "model": "products",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "category",
+            "lineage": [
+                {
+                    "name": "products.category",
+                    "expression": "ilufzqee.public.products AS products",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "category",
+                    "model": "products",
+                    "downstream": []
+                }
+            ]
+        },
+        {
+            "column": "price",
+            "lineage": [
+                {
+                    "name": "products.price",
+                    "expression": "ilufzqee.public.products AS products",
+                    "source_name": "",
+                    "reference_node_name": "",
+                    "column": "price",
+                    "model": "products",
+                    "downstream": []
+                }
+            ]
+        }
+    ]
+}

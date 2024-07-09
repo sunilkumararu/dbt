@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: orders
+    description: "Description of the orders model"
+    columns:
+      - name: order_id
+        description: "Description of order_id"
+        data_type: unknown
+      - name: customer_id
+        description: "Description of customer_id"
+        data_type: unknown
+      - name: product_id
+        description: "Description of product_id"
+        data_type: unknown
+      - name: order_date
+        description: "Description of order_date"
+        data_type: unknown
+      - name: quantity
+        description: "Description of quantity"
+        data_type: unknown
+      - name: total_amount
+        description: "Description of total_amount"
+        data_type: unknown
+    dependencies:
+      - name: orders
