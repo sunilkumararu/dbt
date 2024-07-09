@@ -17,17 +17,17 @@
         },
         {
             "id": "customers-raw_customers",
-            "source": "raw_customers",
+            "source": "public.raw_customers",
             "target": "customers"
         },
         {
             "id": "orders-raw_orders",
-            "source": "raw_orders",
+            "source": "public.raw_orders",
             "target": "orders"
         },
         {
             "id": "products-raw_products",
-            "source": "raw_products",
+            "source": "public.raw_products",
             "target": "products"
         }
     ],
