@@ -6,11 +6,11 @@
             "lineage": [
                 {
                     "name": "customers.customer_id",
-                    "expression": "ilufzqee.public.customers AS customers",
+                    "expression": "ilufzqee.public.raw_customers AS customers",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "customer_id",
-                    "model": "customers",
+                    "model": "raw_customers",
                     "downstream": []
                 }
             ]
@@ -20,11 +20,11 @@
             "lineage": [
                 {
                     "name": "customers.first_name",
-                    "expression": "ilufzqee.public.customers AS customers",
+                    "expression": "ilufzqee.public.raw_customers AS customers",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "first_name",
-                    "model": "customers",
+                    "model": "raw_customers",
                     "downstream": []
                 }
             ]
@@ -34,11 +34,11 @@
             "lineage": [
                 {
                     "name": "customers.last_name",
-                    "expression": "ilufzqee.public.customers AS customers",
+                    "expression": "ilufzqee.public.raw_customers AS customers",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "last_name",
-                    "model": "customers",
+                    "model": "raw_customers",
                     "downstream": []
                 }
             ]
@@ -48,11 +48,11 @@
             "lineage": [
                 {
                     "name": "customers.email",
-                    "expression": "ilufzqee.public.customers AS customers",
+                    "expression": "ilufzqee.public.raw_customers AS customers",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "email",
-                    "model": "customers",
+                    "model": "raw_customers",
                     "downstream": []
                 }
             ]
@@ -62,11 +62,11 @@
             "lineage": [
                 {
                     "name": "customers.sign_up_date",
-                    "expression": "ilufzqee.public.customers AS customers",
+                    "expression": "ilufzqee.public.raw_customers AS customers",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "sign_up_date",
-                    "model": "customers",
+                    "model": "raw_customers",
                     "downstream": []
                 }
             ]

@@ -7,4 +7,4 @@ select
     order_date,
     quantity,
     total_amount
-from {{ source('public', 'orders') }}
+from {{ source('public', 'raw_orders') }}

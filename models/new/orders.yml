@@ -23,4 +23,4 @@ models:
         description: "Description of total_amount"
         data_type: unknown
     dependencies:
-      - name: orders
+      - name: raw_orders

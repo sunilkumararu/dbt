@@ -6,11 +6,11 @@
             "lineage": [
                 {
                     "name": "products.product_id",
-                    "expression": "ilufzqee.public.products AS products",
+                    "expression": "ilufzqee.public.raw_products AS products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "product_id",
-                    "model": "products",
+                    "model": "raw_products",
                     "downstream": []
                 }
             ]
@@ -20,11 +20,11 @@
             "lineage": [
                 {
                     "name": "products.product_name",
-                    "expression": "ilufzqee.public.products AS products",
+                    "expression": "ilufzqee.public.raw_products AS products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "product_name",
-                    "model": "products",
+                    "model": "raw_products",
                     "downstream": []
                 }
             ]
@@ -34,11 +34,11 @@
             "lineage": [
                 {
                     "name": "products.category",
-                    "expression": "ilufzqee.public.products AS products",
+                    "expression": "ilufzqee.public.raw_products AS products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "category",
-                    "model": "products",
+                    "model": "raw_products",
                     "downstream": []
                 }
             ]
@@ -48,11 +48,11 @@
             "lineage": [
                 {
                     "name": "products.price",
-                    "expression": "ilufzqee.public.products AS products",
+                    "expression": "ilufzqee.public.raw_products AS products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "price",
-                    "model": "products",
+                    "model": "raw_products",
                     "downstream": []
                 }
             ]

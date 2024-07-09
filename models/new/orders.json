@@ -6,11 +6,11 @@
             "lineage": [
                 {
                     "name": "orders.order_id",
-                    "expression": "ilufzqee.public.orders AS orders",
+                    "expression": "ilufzqee.public.raw_orders AS orders",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "order_id",
-                    "model": "orders",
+                    "model": "raw_orders",
                     "downstream": []
                 }
             ]
@@ -20,11 +20,11 @@
             "lineage": [
                 {
                     "name": "orders.customer_id",
-                    "expression": "ilufzqee.public.orders AS orders",
+                    "expression": "ilufzqee.public.raw_orders AS orders",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "customer_id",
-                    "model": "orders",
+                    "model": "raw_orders",
                     "downstream": []
                 }
             ]
@@ -34,11 +34,11 @@
             "lineage": [
                 {
                     "name": "orders.product_id",
-                    "expression": "ilufzqee.public.orders AS orders",
+                    "expression": "ilufzqee.public.raw_orders AS orders",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "product_id",
-                    "model": "orders",
+                    "model": "raw_orders",
                     "downstream": []
                 }
             ]
@@ -48,11 +48,11 @@
             "lineage": [
                 {
                     "name": "orders.order_date",
-                    "expression": "ilufzqee.public.orders AS orders",
+                    "expression": "ilufzqee.public.raw_orders AS orders",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "order_date",
-                    "model": "orders",
+                    "model": "raw_orders",
                     "downstream": []
                 }
             ]
@@ -62,11 +62,11 @@
             "lineage": [
                 {
                     "name": "orders.quantity",
-                    "expression": "ilufzqee.public.orders AS orders",
+                    "expression": "ilufzqee.public.raw_orders AS orders",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "quantity",
-                    "model": "orders",
+                    "model": "raw_orders",
                     "downstream": []
                 }
             ]
@@ -76,11 +76,11 @@
             "lineage": [
                 {
                     "name": "orders.total_amount",
-                    "expression": "ilufzqee.public.orders AS orders",
+                    "expression": "ilufzqee.public.raw_orders AS orders",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "total_amount",
-                    "model": "orders",
+                    "model": "raw_orders",
                     "downstream": []
                 }
             ]

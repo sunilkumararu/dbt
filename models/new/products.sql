@@ -5,4 +5,4 @@ select
     product_name,
     category,
     price
-from {{ source('public', 'products') }}
+from {{ source('public', 'raw_products') }}

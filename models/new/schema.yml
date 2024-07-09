@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: public
     tables:
-      - name: orders
-      - name: customers
-      - name: products
+      - name: raw_orders
+      - name: raw_customers
+      - name: raw_products
 
 
