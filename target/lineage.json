@@ -1,0 +1,616 @@
+{
+    "edges": [
+        {
+            "id": "customer_order_summary-orders",
+            "source": "orders",
+            "target": "customer_order_summary"
+        },
+        {
+            "id": "customer_order_summary-customers",
+            "source": "customers",
+            "target": "customer_order_summary"
+        },
+        {
+            "id": "customer_order_summary-products",
+            "source": "products",
+            "target": "customer_order_summary"
+        },
+        {
+            "id": "customers-raw_customers",
+            "source": "raw_customers",
+            "target": "customers"
+        },
+        {
+            "id": "orders-raw_orders",
+            "source": "raw_orders",
+            "target": "orders"
+        },
+        {
+            "id": "products-raw_products",
+            "source": "raw_products",
+            "target": "products"
+        }
+    ],
+    "nodes": [
+        {
+            "columns": [
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "customers",
+                            "source": "customer_id",
+                            "target": "customer_id"
+                        }
+                    ],
+                    "name": "customer_id",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "customers",
+                            "source": "first_name",
+                            "target": "customer_name"
+                        },
+                        {
+                            "id": "",
+                            "model_name": "customers",
+                            "source": "last_name",
+                            "target": "customer_name"
+                        }
+                    ],
+                    "name": "customer_name",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "customers",
+                            "source": "email",
+                            "target": "email"
+                        }
+                    ],
+                    "name": "email",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "customers",
+                            "source": "sign_up_date",
+                            "target": "sign_up_date"
+                        }
+                    ],
+                    "name": "sign_up_date",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "orders",
+                            "source": "order_id",
+                            "target": "total_orders"
+                        }
+                    ],
+                    "name": "total_orders",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "orders",
+                            "source": "quantity",
+                            "target": "total_quantity"
+                        }
+                    ],
+                    "name": "total_quantity",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "orders",
+                            "source": "total_amount",
+                            "target": "total_spent"
+                        }
+                    ],
+                    "name": "total_spent",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "orders",
+                            "source": "order_date",
+                            "target": "first_order_date"
+                        }
+                    ],
+                    "name": "first_order_date",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "orders",
+                            "source": "order_date",
+                            "target": "last_order_date"
+                        }
+                    ],
+                    "name": "last_order_date",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "products",
+                            "source": "product_name",
+                            "target": "favorite_product"
+                        }
+                    ],
+                    "name": "favorite_product",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "products",
+                            "source": "category",
+                            "target": "favorite_category"
+                        }
+                    ],
+                    "name": "favorite_category",
+                    "type": "unknown"
+                }
+            ],
+            "data": {
+                "Columns": [
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of customer_id",
+                        "Name": "customer_id"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of customer_name",
+                        "Name": "customer_name"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of email",
+                        "Name": "email"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of sign_up_date",
+                        "Name": "sign_up_date"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of total_orders",
+                        "Name": "total_orders"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of total_quantity",
+                        "Name": "total_quantity"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of total_spent",
+                        "Name": "total_spent"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of first_order_date",
+                        "Name": "first_order_date"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of last_order_date",
+                        "Name": "last_order_date"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of favorite_product",
+                        "Name": "favorite_product"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of favorite_category",
+                        "Name": "favorite_category"
+                    }
+                ],
+                "Dependencies": [
+                    {
+                        "Name": "orders"
+                    },
+                    {
+                        "Name": "customers"
+                    },
+                    {
+                        "Name": "products"
+                    }
+                ],
+                "Description": "Description of the customer_order_summary model",
+                "Name": "customer_order_summary"
+            },
+            "id": "customer_order_summary",
+            "materialization_type": "table",
+            "model_name": "customer_order_summary",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/customer_order_summary.sql",
+            "postion": null,
+            "type": "model"
+        },
+        {
+            "columns": [
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_customers",
+                            "source": "customer_id",
+                            "target": "customer_id"
+                        }
+                    ],
+                    "name": "customer_id",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_customers",
+                            "source": "first_name",
+                            "target": "first_name"
+                        }
+                    ],
+                    "name": "first_name",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_customers",
+                            "source": "last_name",
+                            "target": "last_name"
+                        }
+                    ],
+                    "name": "last_name",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_customers",
+                            "source": "email",
+                            "target": "email"
+                        }
+                    ],
+                    "name": "email",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_customers",
+                            "source": "sign_up_date",
+                            "target": "sign_up_date"
+                        }
+                    ],
+                    "name": "sign_up_date",
+                    "type": "unknown"
+                }
+            ],
+            "data": {
+                "Columns": [
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of customer_id",
+                        "Name": "customer_id"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of first_name",
+                        "Name": "first_name"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of last_name",
+                        "Name": "last_name"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of email",
+                        "Name": "email"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of sign_up_date",
+                        "Name": "sign_up_date"
+                    }
+                ],
+                "Dependencies": [
+                    {
+                        "Name": "raw_customers"
+                    }
+                ],
+                "Description": "Description of the customers model",
+                "Name": "customers"
+            },
+            "id": "customers",
+            "materialization_type": "table",
+            "model_name": "customers",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/customers.sql",
+            "postion": null,
+            "type": "model"
+        },
+        {
+            "columns": [
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_orders",
+                            "source": "order_id",
+                            "target": "order_id"
+                        }
+                    ],
+                    "name": "order_id",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_orders",
+                            "source": "customer_id",
+                            "target": "customer_id"
+                        }
+                    ],
+                    "name": "customer_id",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_orders",
+                            "source": "product_id",
+                            "target": "product_id"
+                        }
+                    ],
+                    "name": "product_id",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_orders",
+                            "source": "order_date",
+                            "target": "order_date"
+                        }
+                    ],
+                    "name": "order_date",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_orders",
+                            "source": "quantity",
+                            "target": "quantity"
+                        }
+                    ],
+                    "name": "quantity",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_orders",
+                            "source": "total_amount",
+                            "target": "total_amount"
+                        }
+                    ],
+                    "name": "total_amount",
+                    "type": "unknown"
+                }
+            ],
+            "data": {
+                "Columns": [
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of order_id",
+                        "Name": "order_id"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of customer_id",
+                        "Name": "customer_id"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of product_id",
+                        "Name": "product_id"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of order_date",
+                        "Name": "order_date"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of quantity",
+                        "Name": "quantity"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of total_amount",
+                        "Name": "total_amount"
+                    }
+                ],
+                "Dependencies": [
+                    {
+                        "Name": "raw_orders"
+                    }
+                ],
+                "Description": "Description of the orders model",
+                "Name": "orders"
+            },
+            "id": "orders",
+            "materialization_type": "table",
+            "model_name": "orders",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/orders.sql",
+            "postion": null,
+            "type": "model"
+        },
+        {
+            "columns": [
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_products",
+                            "source": "product_id",
+                            "target": "product_id"
+                        }
+                    ],
+                    "name": "product_id",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_products",
+                            "source": "product_name",
+                            "target": "product_name"
+                        }
+                    ],
+                    "name": "product_name",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_products",
+                            "source": "category",
+                            "target": "category"
+                        }
+                    ],
+                    "name": "category",
+                    "type": "unknown"
+                },
+                {
+                    "dependency": [
+                        {
+                            "id": "",
+                            "model_name": "raw_products",
+                            "source": "price",
+                            "target": "price"
+                        }
+                    ],
+                    "name": "price",
+                    "type": "unknown"
+                }
+            ],
+            "data": {
+                "Columns": [
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of product_id",
+                        "Name": "product_id"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of product_name",
+                        "Name": "product_name"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of category",
+                        "Name": "category"
+                    },
+                    {
+                        "DataType": "unknown",
+                        "Description": "Description of price",
+                        "Name": "price"
+                    }
+                ],
+                "Dependencies": [
+                    {
+                        "Name": "raw_products"
+                    }
+                ],
+                "Description": "Description of the products model",
+                "Name": "products"
+            },
+            "id": "products",
+            "materialization_type": "table",
+            "model_name": "products",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/products.sql",
+            "postion": null,
+            "type": "model"
+        },
+        {
+            "columns": null,
+            "data": {
+                "Columns": null,
+                "Description": "",
+                "Name": "raw_orders"
+            },
+            "id": "public.raw_orders",
+            "materialization_type": "table",
+            "model_name": "raw_orders",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/schema.yml",
+            "postion": null,
+            "type": "table"
+        },
+        {
+            "columns": null,
+            "data": {
+                "Columns": null,
+                "Description": "",
+                "Name": "raw_customers"
+            },
+            "id": "public.raw_customers",
+            "materialization_type": "table",
+            "model_name": "raw_customers",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/schema.yml",
+            "postion": null,
+            "type": "table"
+        },
+        {
+            "columns": null,
+            "data": {
+                "Columns": null,
+                "Description": "",
+                "Name": "raw_products"
+            },
+            "id": "public.raw_products",
+            "materialization_type": "table",
+            "model_name": "raw_products",
+            "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/schema.yml",
+            "postion": null,
+            "type": "table"
+        }
+    ]
+}
