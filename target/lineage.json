@@ -249,7 +249,7 @@
             "materialization_type": "table",
             "model_name": "customer_order_summary",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/customer_order_summary.sql",
-            "postion": null,
+            "position": null,
             "type": "model"
         },
         {
@@ -355,7 +355,7 @@
             "materialization_type": "table",
             "model_name": "customers",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/customers.sql",
-            "postion": null,
+            "position": null,
             "type": "model"
         },
         {
@@ -478,7 +478,7 @@
             "materialization_type": "table",
             "model_name": "orders",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/orders.sql",
-            "postion": null,
+            "position": null,
             "type": "model"
         },
         {
@@ -567,7 +567,7 @@
             "materialization_type": "table",
             "model_name": "products",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/products.sql",
-            "postion": null,
+            "position": null,
             "type": "model"
         },
         {
@@ -581,7 +581,7 @@
             "materialization_type": "table",
             "model_name": "raw_orders",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/schema.yml",
-            "postion": null,
+            "position": null,
             "type": "table"
         },
         {
@@ -595,7 +595,7 @@
             "materialization_type": "table",
             "model_name": "raw_customers",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/schema.yml",
-            "postion": null,
+            "position": null,
             "type": "table"
         },
         {
@@ -609,7 +609,7 @@
             "materialization_type": "table",
             "model_name": "raw_products",
             "model_path": "/b6efabd9-2002-48db-a121-010c9b5bc836/dbt/models/new/schema.yml",
-            "postion": null,
+            "position": null,
             "type": "table"
         }
     ]
