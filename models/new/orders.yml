@@ -1,26 +1,26 @@
 version: 2
-
 models:
-  - name: orders
-    description: "Description of the orders model"
-    columns:
-      - name: order_id
-        description: "Description of order_id"
-        data_type: unknown
-      - name: customer_id
-        description: "Description of customer_id"
-        data_type: unknown
-      - name: product_id
-        description: "Description of product_id"
-        data_type: unknown
-      - name: order_date
-        description: "Description of order_date"
-        data_type: unknown
-      - name: quantity
-        description: "Description of quantity"
-        data_type: unknown
-      - name: total_amount
-        description: "Description of total_amount"
-        data_type: unknown
-    dependencies:
-      - name: public-raw_orders
+- name: orders
+  meta:
+    database: ilufzqee
+    schema: public
+    resource_type: model
+  description: A description for the model
+  columns:
+  - name: order_id
+    description: A description for the column
+  - name: customer_id
+    description: A description for the column
+  - name: product_id
+    description: A description for the column
+  - name: order_date
+    description: A description for the column
+  - name: quantity
+    description: A description for the column
+  - name: total_amount
+    description: A description for the column
+  dependencies:
+  - name: raw_orders
+    database: ilufzqee
+    schema: public
+    resource_type: source

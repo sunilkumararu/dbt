@@ -10,7 +10,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "customer_id",
-                    "model": "customers",
+                    "model": "ilufzqee.public.customers",
                     "downstream": []
                 }
             ]
@@ -24,7 +24,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "first_name",
-                    "model": "customers",
+                    "model": "ilufzqee.public.customers",
                     "downstream": []
                 },
                 {
@@ -33,7 +33,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "last_name",
-                    "model": "customers",
+                    "model": "ilufzqee.public.customers",
                     "downstream": []
                 }
             ]
@@ -47,7 +47,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "email",
-                    "model": "customers",
+                    "model": "ilufzqee.public.customers",
                     "downstream": []
                 }
             ]
@@ -61,7 +61,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "sign_up_date",
-                    "model": "customers",
+                    "model": "ilufzqee.public.customers",
                     "downstream": []
                 }
             ]
@@ -75,7 +75,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "order_id",
-                    "model": "orders",
+                    "model": "ilufzqee.public.orders",
                     "downstream": []
                 }
             ]
@@ -89,7 +89,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "quantity",
-                    "model": "orders",
+                    "model": "ilufzqee.public.orders",
                     "downstream": []
                 }
             ]
@@ -103,7 +103,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "total_amount",
-                    "model": "orders",
+                    "model": "ilufzqee.public.orders",
                     "downstream": []
                 }
             ]
@@ -117,7 +117,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "order_date",
-                    "model": "orders",
+                    "model": "ilufzqee.public.orders",
                     "downstream": []
                 }
             ]
@@ -131,7 +131,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "order_date",
-                    "model": "orders",
+                    "model": "ilufzqee.public.orders",
                     "downstream": []
                 }
             ]
@@ -145,7 +145,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "product_name",
-                    "model": "products",
+                    "model": "ilufzqee.public.products",
                     "downstream": []
                 }
             ]
@@ -159,7 +159,7 @@
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "category",
-                    "model": "products",
+                    "model": "ilufzqee.public.products",
                     "downstream": []
                 }
             ]

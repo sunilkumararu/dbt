@@ -1,20 +1,22 @@
 version: 2
-
 models:
-  - name: products
-    description: "Description of the products model"
-    columns:
-      - name: product_id
-        description: "Description of product_id"
-        data_type: unknown
-      - name: product_name
-        description: "Description of product_name"
-        data_type: unknown
-      - name: category
-        description: "Description of category"
-        data_type: unknown
-      - name: price
-        description: "Description of price"
-        data_type: unknown
-    dependencies:
-      - name: public-raw_products
+- name: products
+  meta:
+    database: ilufzqee
+    schema: public
+    resource_type: model
+  description: A description for the model
+  columns:
+  - name: product_id
+    description: A description for the column
+  - name: product_name
+    description: A description for the column
+  - name: category
+    description: A description for the column
+  - name: price
+    description: A description for the column
+  dependencies:
+  - name: raw_products
+    database: ilufzqee
+    schema: public
+    resource_type: source

@@ -1,23 +1,24 @@
 version: 2
-
 models:
-  - name: customers
-    description: "Description of the customers model"
-    columns:
-      - name: customer_id
-        description: "Description of customer_id"
-        data_type: unknown
-      - name: first_name
-        description: "Description of first_name"
-        data_type: unknown
-      - name: last_name
-        description: "Description of last_name"
-        data_type: unknown
-      - name: email
-        description: "Description of email"
-        data_type: unknown
-      - name: sign_up_date
-        description: "Description of sign_up_date"
-        data_type: unknown
-    dependencies:
-      - name: public-raw_customers
+- name: customers
+  meta:
+    database: ilufzqee
+    schema: public
+    resource_type: model
+  description: A description for the model
+  columns:
+  - name: customer_id
+    description: A description for the column
+  - name: first_name
+    description: A description for the column
+  - name: last_name
+    description: A description for the column
+  - name: email
+    description: A description for the column
+  - name: sign_up_date
+    description: A description for the column
+  dependencies:
+  - name: raw_customers
+    database: ilufzqee
+    schema: public
+    resource_type: source

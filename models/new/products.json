@@ -5,12 +5,12 @@
             "column": "product_id",
             "lineage": [
                 {
-                    "name": "products.product_id",
-                    "expression": "ilufzqee.public.raw_products AS products",
+                    "name": "raw_products.product_id",
+                    "expression": "ilufzqee.public.raw_products AS raw_products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "product_id",
-                    "model": "raw_products",
+                    "model": "ilufzqee.public.raw_products",
                     "downstream": []
                 }
             ]
@@ -19,12 +19,12 @@
             "column": "product_name",
             "lineage": [
                 {
-                    "name": "products.product_name",
-                    "expression": "ilufzqee.public.raw_products AS products",
+                    "name": "raw_products.product_name",
+                    "expression": "ilufzqee.public.raw_products AS raw_products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "product_name",
-                    "model": "raw_products",
+                    "model": "ilufzqee.public.raw_products",
                     "downstream": []
                 }
             ]
@@ -33,12 +33,12 @@
             "column": "category",
             "lineage": [
                 {
-                    "name": "products.category",
-                    "expression": "ilufzqee.public.raw_products AS products",
+                    "name": "raw_products.category",
+                    "expression": "ilufzqee.public.raw_products AS raw_products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "category",
-                    "model": "raw_products",
+                    "model": "ilufzqee.public.raw_products",
                     "downstream": []
                 }
             ]
@@ -47,12 +47,12 @@
             "column": "price",
             "lineage": [
                 {
-                    "name": "products.price",
-                    "expression": "ilufzqee.public.raw_products AS products",
+                    "name": "raw_products.price",
+                    "expression": "ilufzqee.public.raw_products AS raw_products",
                     "source_name": "",
                     "reference_node_name": "",
                     "column": "price",
-                    "model": "raw_products",
+                    "model": "ilufzqee.public.raw_products",
                     "downstream": []
                 }
             ]

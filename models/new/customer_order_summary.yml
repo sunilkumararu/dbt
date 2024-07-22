@@ -1,44 +1,44 @@
 version: 2
-
 models:
-  - name: customer_order_summary
-    description: "Description of the customer_order_summary model"
-    columns:
-      - name: customer_id
-        description: "Description of customer_id"
-        data_type: unknown
-      - name: customer_name
-        description: "Description of customer_name"
-        data_type: unknown
-      - name: email
-        description: "Description of email"
-        data_type: unknown
-      - name: sign_up_date
-        description: "Description of sign_up_date"
-        data_type: unknown
-      - name: total_orders
-        description: "Description of total_orders"
-        data_type: unknown
-      - name: total_quantity
-        description: "Description of total_quantity"
-        data_type: unknown
-      - name: total_spent
-        description: "Description of total_spent"
-        data_type: unknown
-      - name: first_order_date
-        description: "Description of first_order_date"
-        data_type: unknown
-      - name: last_order_date
-        description: "Description of last_order_date"
-        data_type: unknown
-      - name: favorite_product
-        description: "Description of favorite_product"
-        data_type: unknown
-      - name: favorite_category
-        description: "Description of favorite_category"
-        data_type: unknown
-    dependencies:
-      - name: orders
-        description: "adfasdf"
-      - name: customers
-      - name: products
+- name: customer_order_summary
+  meta:
+    database: ilufzqee
+    schema: public
+    resource_type: model
+  description: A description for the model
+  columns:
+  - name: customer_id
+    description: A description for the column
+  - name: customer_name
+    description: A description for the column
+  - name: email
+    description: A description for the column
+  - name: sign_up_date
+    description: A description for the column
+  - name: total_orders
+    description: A description for the column
+  - name: total_quantity
+    description: A description for the column
+  - name: total_spent
+    description: A description for the column
+  - name: first_order_date
+    description: A description for the column
+  - name: last_order_date
+    description: A description for the column
+  - name: favorite_product
+    description: A description for the column
+  - name: favorite_category
+    description: A description for the column
+  dependencies:
+  - name: orders
+    database: ilufzqee
+    schema: public
+    resource_type: model
+  - name: customers
+    database: ilufzqee
+    schema: public
+    resource_type: model
+  - name: products
+    database: ilufzqee
+    schema: public
+    resource_type: model
