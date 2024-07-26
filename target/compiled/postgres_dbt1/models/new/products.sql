@@ -5,4 +5,4 @@ select
     product_name,
     category,
     price
-from "ilufzqee"."public"."products"
+from "ilufzqee"."public"."raw_products"

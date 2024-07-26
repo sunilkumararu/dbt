@@ -6,4 +6,4 @@ select
     last_name,
     email,
     sign_up_date
-from "ilufzqee"."public"."customers"
+from "ilufzqee"."public"."raw_customers"

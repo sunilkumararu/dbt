@@ -7,4 +7,4 @@ select
     order_date,
     quantity,
     total_amount
-from "ilufzqee"."public"."orders"
+from "ilufzqee"."public"."raw_orders"
