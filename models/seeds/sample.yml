@@ -1,0 +1,10 @@
+version: 2
+seeds:
+- name: sample
+  meta:
+    database: ilufzqee
+    schema: public
+    resource_type: seed
+  description: A description for the seed
+  columns: []
+  dependencies: []
