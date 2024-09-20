@@ -2,6 +2,8 @@ version: 2
 
 sources:
   - name: public
+    database: ilufzqee
+    schema: public
     tables:
       - name: raw_orders
       - name: raw_customers
