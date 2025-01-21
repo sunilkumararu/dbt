@@ -1,0 +1,24 @@
+type: ""
+version: "1.0"
+project_id: 878216a7-e1a1-4a07-bc48-4ae79c02c50b
+pipeline:
+  name: newmodel
+  components:
+    final-output:
+      component_id: final-output
+      component_name: final-output
+      model_type: final-output
+    table-input:
+      catalog: tpch
+      columns:
+      - column_alias: ""
+        column_name: supplier_key
+      - column_alias: ""
+        column_name: supplier_name
+      component_id: table-input
+      component_name: table-input
+      database: tpch
+      model_type: table-input
+      schema_name: public
+      table_name: base_supplier
+      ui_properties: '{"position":{"x":105,"y":240},"iconURL":"https://assets.vegalake.com/logos/visualpipeline/table-input.svg"}'
